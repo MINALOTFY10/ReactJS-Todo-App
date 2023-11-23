@@ -1,0 +1,26 @@
+.goal-item {
+  margin: 1rem 0;
+  background: #f4f6f7;
+  box-shadow: 0 2px 8px rgba(80, 171, 200, 0.8);
+  color: black;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.checkbox-wrapper input {
+  margin-right: 20px;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+

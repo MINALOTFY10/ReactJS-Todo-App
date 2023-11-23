@@ -1,0 +1,40 @@
+.goal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.delete-icon {
+  margin: auto 0;
+}
+
+.delete-all-button {
+  float: right;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0px 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  margin: auto 0px;
+  margin-top: 10px;
+}
+
+.delete-all-button:hover {
+  background-color: #d32f2f;
+}
+
+.delete-all-button p {
+  margin: 13px 0px;
+  margin-left: 15px;
+  font-size: 1.1rem;
+}
+
+.inside-button {
+  display: flex;
+}

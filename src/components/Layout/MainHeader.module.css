@@ -1,0 +1,86 @@
+.header {
+  width: 50%;
+  padding: 0 10%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.32);
+}
+
+.header h1 {
+  color: #7455fa;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul .header-button {
+  position: relative;
+  padding: 10px 20px;
+  border: none;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+  font-size: 1.05rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  
+  color: #9a9a9a;
+}
+
+nav ul .header-button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background-color: #7455fa;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  transition: left 0.3s ease-in-out;
+}
+
+nav ul .active::after {
+  left: 0;
+}
+
+nav ul .active {
+  color: #7455fa;
+}
+
+@media (max-width: 1025px) {
+  nav ul .header-button {
+    width: 150px;
+  }
+}
+
+@media (max-width: 878px) {
+  nav ul .header-button {
+    width: 100px;
+  }
+
+  .header {
+    width: 90%;
+  }
+}
+
+.app-icon {
+  margin-top: 20px;
+  width: 14%;
+}
