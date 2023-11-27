@@ -4,6 +4,10 @@
 ![Redux](https://img.shields.io/badge/Redux-4.1.0-green)
 
 This is a simple task manager web app built using React and Redux. It allows you to add, manage, and categorize tasks. You can switch between different task lists - All Tasks, Active Tasks, and Completed Tasks.
+<div align="center">
+  <img src="./App Screenshots/one.png" alt="Application Screenshot" height="400">
+</div>
+
 
 ## Table of Contents
 - [Getting Started](#getting-started)
